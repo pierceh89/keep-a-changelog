@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   select.addEventListener('change', function(event){
     origin = window.location.origin;
     languageCode = event.currentTarget.selectedOptions[0].value
-    window.location.replace(origin + "/" + languageCode)
+    window.location.replace(origin + "/keep-a-changelog/" + languageCode)
   });
 
   var faqHeaders = document.querySelectorAll('.frequently-asked-questions h4');
